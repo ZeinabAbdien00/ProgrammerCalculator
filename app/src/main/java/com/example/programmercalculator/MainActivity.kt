@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
         setFindViewById()
         setOnClickListeners()
         setOnTextChanged()
-        //converters()
     }
 
     private fun setFindViewById() {
