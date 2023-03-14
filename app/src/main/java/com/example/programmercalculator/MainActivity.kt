@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         setFindViewById()
         setOnClickListeners()
         setOnTextChanged()
+
     }
 
     private fun setFindViewById() {
@@ -38,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun setOnTextChanged(){
+    private fun setOnTextChanged() {
 
         incomeBinary.addTextChangedListener(object : TextWatcher {
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
