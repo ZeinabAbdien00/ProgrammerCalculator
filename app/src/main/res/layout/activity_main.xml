@@ -53,7 +53,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="monospace"
-                android:hint="Binary Number"
+                android:hint="@string/binary_number"
                 android:inputType="number"
                 android:textColor="@color/black"
                 android:textStyle="bold" />
@@ -78,7 +78,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="monospace"
-                android:hint="Decimal Number"
+                android:hint="@string/decimal_number"
                 android:inputType="number"
                 android:textColor="@color/black"
                 android:textStyle="bold" />
@@ -103,7 +103,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="monospace"
-                android:hint="Hexadecimal Number"
+                android:hint="@string/hexadecimal_number"
                 android:textColor="@color/black"
                 android:textStyle="bold" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -128,7 +128,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="monospace"
-                android:hint="Octal Number"
+                android:hint="@string/octal_number"
                 android:textColor="@color/black"
                 android:textStyle="bold" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -151,7 +151,7 @@
             android:backgroundTint="@color/black"
             android:fontFamily="monospace"
             android:gravity="center"
-            android:text="Clear Data"
+            android:text="@string/clear_data"
             android:textAllCaps="false"
             android:textColor="@color/white" />
     </LinearLayout>

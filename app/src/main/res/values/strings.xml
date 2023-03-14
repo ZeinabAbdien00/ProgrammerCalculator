@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">ProgrammerCalculator</string>
     <string name="welcome_to_programmer_calculator">Welcome to Programmer Calculator</string>
+    <string name="binary_number">Binary Number</string>
+    <string name="decimal_number">Decimal Number</string>
+    <string name="hexadecimal_number">Hexadecimal Number</string>
+    <string name="octal_number">Octal Number</string>
+    <string name="clear_data">Clear Data</string>
 </resources>
